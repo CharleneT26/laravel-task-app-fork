@@ -1,18 +1,18 @@
 @extends('layouts.app')
 @section('content')
 <div class="max-w-2xl mx-auto p-4">
-<h1 class="text-2xl font-bold mb-4">Create New Task</h1>
+<h1 class="text-2xl font-bold mb-4 text-violet-900">Create New Task</h1>
 <form action="" method="POST">
 @csrf
 {{-- Task Name --}}
 <div class="mb-4">
 
-<label for="task_name">Task Name</label>
+<label for="task_name" class="text-white">Task Name</label>
 <input require type="text" name="task_name" id="task_name" placeholder="Take out the TrASH">
 
 </div>
 {{-- Task Location --}}
-<div class="mb-4">
+<div class="mb-4 text-white">
 
 - Indicate optional or required status.
 
@@ -28,11 +28,11 @@
 - Create a <select> element with name="time_complexity" and id="time_complexity".
 - Add <option> items for 1-5, labeled as "10 min", "30 min", "1 hour", etc.
 -->
-<label for="time_complexity">Time Estimate</label>
-<select type="text" name="time_complexity" id="time_complexity" >
-<option>10 min</option>
-<option>30 min</option>
-<option>1 hour</option>
+<label for="time_complexity" class="text-white">Time Estimate</label>
+<select type="text" name="time_complexity" id="time_complexity" class="text-violet-900">
+<option class="text-violet-900">10 min</option>
+<option class="text-violet-900">30 min</option>
+<option class="text-violet-900">1 hour</option>
 
 </div>
 {{-- Materials Required (Optional) --}}
