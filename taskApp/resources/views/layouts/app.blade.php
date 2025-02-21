@@ -6,7 +6,7 @@
 <title>Laravel Task App</title>
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-violet-100">
+<body class="bg-white-100">
 <nav class="bg-white shadow p-4">
 <h1 class="text-xl font-bold text-violet-600">My Task App</h1>
 </nav>

@@ -8,7 +8,7 @@
 {{ $task->task_name }}
 </li>
 @empty
-<li class="text-white">No tasks yet.</li>
+<li class="text-violet-700">No tasks yet.</li>
 @endforelse
 </ul>
 <div class="mt-4">
